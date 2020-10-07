@@ -18,8 +18,8 @@
 *Run telegraf and thingsboard gateway on boot*
 1. crontab -e
 2. put command in the bottom line
-@reboot telegraf
-@reboot /usr/local/bin/python3.6 /usr/local/bin/thingsboard-gateway
+- @reboot telegraf
+- @reboot /usr/local/bin/python3.6 /usr/local/bin/thingsboard-gateway
 
 *Cara download dan setup configuration file dari github*
 1. Create Folder in root
