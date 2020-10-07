@@ -41,6 +41,10 @@
 - mv GOP6.txt telegraf.conf
 - reboot
 
+*Configuration Files Directory*
+1. Telegraf = /etc/telegraf/telegraf.conf
+2. Thingsboard = /etc/thingsboard-gateway/config/tb_gateway.yaml
+
 *Troubleshoot modbus telegraf*
 1. telegraf -input-filter modbus -test
 
