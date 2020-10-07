@@ -60,7 +60,7 @@
   ##       when interval = "250ms", precision will be "1ms"
   ## Precision will NOT be used for service inputs. It is up to each individual
   ## service input to set the timestamp at the appropriate precision.
-  ## Valid time units are "ns", "us" (or "µs"), "ms", "s".
+  ## Valid time units are "ns", "us" (or "Âµs"), "ms", "s".
   precision = ""
 
   ## Log at debug level.
@@ -3986,27 +3986,27 @@ transmission_mode = "RTU"
 #   ## scale      - the final numeric variable representation
 #   ## address    - variable address
 #
-   holding_registers = [
-     	{ measurement= "gop9" name = "v12",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3019]},
-	{ measurement= "gop9" name = "v23",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3021]},
-	{ measurement= "gop9" name = "v13",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3023]},
-	{ measurement= "gop9" name = "vavg",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3025]},
-	{ measurement= "gop9" name = "v1n",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3027]},
-	{ measurement= "gop9" name = "v2n",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3029]},
-	{ measurement= "gop9" name = "f",        byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3109]},
-	{ measurement= "gop9" name = "i1",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [2999]},
-	{ measurement= "gop9" name = "i2",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3001]},
-	{ measurement= "gop9" name = "i3",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3003]},
-    	{ measurement= "gop9" name = "iavg",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3005]},
-	{ measurement= "gop9" name = "p1",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3053]},
-	{ measurement= "gop9" name = "p2",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3055]},
-	{ measurement= "gop9" name = "p3",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3057]},
-	{ measurement= "gop9" name = "ptot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3059]},
-	{ measurement= "gop9" name = "qtot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3067]},
-	{ measurement= "gop9" name = "stot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3075]},
-	{ measurement= "gop9" name = "pf",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3083]},
-	{ measurement= "gop9" name = "eimport",  byte_order = "DCBA",   data_type = "UINT32", scale=1.0,  address = [3203]},
-	{ measurement= "gop9" name = "eexport",  byte_order = "DCBA",   data_type = "UINT32", scale=1.0,  address = [3207]}
+ holding_registers = [
+ 	{ measurement ="gop9",	name = "v12",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3019]},
+	{ measurement ="gop9",	name = "v23",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3021]},
+	{ measurement ="gop9",	name = "v13",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3023]},
+	{ measurement ="gop9",	name = "vavg",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3025]},
+	{ measurement ="gop9",	name = "v1n",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3027]},
+	{ measurement ="gop9",	name = "v2n",      byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3029]},
+	{ measurement ="gop9",	name = "f",        byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3109]},
+	{ measurement ="gop9",	name = "i1",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [2999]},
+	{ measurement ="gop9",	name = "i2",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3001]},
+	{ measurement ="gop9",	name = "i3",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3003]},
+    	{ measurement ="gop9",	name = "iavg",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3005]},
+	{ measurement ="gop9",	name = "p1",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3053]},
+	{ measurement ="gop9",	name = "p2",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3055]},
+	{ measurement ="gop9",	name = "p3",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3057]},
+	{ measurement ="gop9",	name = "ptot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3059]},
+	{ measurement ="gop9",	name = "qtot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3067]},
+	{ measurement ="gop9",	name = "stot",     byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3075]},
+	{ measurement ="gop9",	name = "pf",       byte_order = "AB",   data_type = "FLOAT32", scale=1.0,  address = [3083]},
+	{ measurement ="gop9",	name = "eimport",  byte_order = "AB",   data_type = "INT32", scale=1.0,  address = [3203]},
+	{ measurement ="gop9",	name = "eexport",  byte_order = "AB",   data_type = "INT32", scale=1.0,  address = [3207]}
    ]
 #   input_registers = [
 #     { name = "tank_level",   byte_order = "AB",   data_type = "INT16",   scale=1.0,     address = [0]},
@@ -6469,7 +6469,7 @@ transmission_mode = "RTU"
 #
 #     ## Timezone allows you to provide an override for timestamps that
 #     ## don't already include an offset
-#     ## e.g. 04/06/2016 12:41:45 data one two 5.43µs
+#     ## e.g. 04/06/2016 12:41:45 data one two 5.43Âµs
 #     ##
 #     ## Default: "" which renders UTC
 #     ## Options are as follows:
