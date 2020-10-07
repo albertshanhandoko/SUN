@@ -41,6 +41,24 @@
 - mv GOP6.txt telegraf.conf
 - reboot
 
+*Cara push configuration file ke github*
+1. Create Folder in root
+- mkdir thingsboard_configuration
+- cd thingsboard_configuration
+2. Make it git repository
+- git init
+3. Copy existing configuration to repository
+- cd /etc/thingsboard-gateway/config
+- cp tb_gateway.yaml /root/thingsboard_configuration
+4. Add and commit configuration file
+- git add tb_gateway.yaml
+- git status
+- git commit -m 'comment'
+5. Register remote repository
+- git remote add albertgit https://albertshanhandoko:4Lbertshan1234@github.com/albertshanhandoko/SUN.git
+6. Push file to remote repository
+- git push -u albertgit master
+
 *Configuration Files Directory*
 1. Telegraf = /etc/telegraf/telegraf.conf
 2. Thingsboard = /etc/thingsboard-gateway/config/tb_gateway.yaml
