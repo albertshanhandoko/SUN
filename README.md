@@ -75,4 +75,4 @@ Credential =
 2. Link instalasi dataplicity
 - GOP 6 = curl -s https://www.dataplicity.com/qkvm6l9i.py | sudo python
 - GOP 9 = curl -s https://www.dataplicity.com/ld2osp32.py | sudo python
-- SML   = qzEREwfONH6ZuL79ADw3
+- SML   = curl -s https://www.dataplicity.com/zlxx0rmt.py | sudo python 
