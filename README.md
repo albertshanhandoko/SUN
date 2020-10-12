@@ -1,4 +1,5 @@
 *Thingsboard Installation*
+
 I Install Python 3.6 https://installvirtual.com/install-python-3-on-raspberry-pi-raspbian/
 1. apt-get update
 2. sudo apt-get install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
