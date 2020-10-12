@@ -4006,11 +4006,11 @@ transmission_mode = "RTU"
 	{ measurement ="gop6",	name = "stot",     byte_order = "BA",   data_type = "FLOAT32", scale=0.001,  address = [3075]},
 	{ measurement ="gop6",	name = "pf",       byte_order = "BA",   data_type = "FLOAT32", scale=0.00001,  address = [3083]},
 	{ measurement ="gop6",	name = "eimport1",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3200]},
-	{ measurement ="gop6",	name = "eimport2",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3201]},
+	{ measurement ="gop6",	name = "eimport2",  byte_order = "BA",   data_type = "INT32", scale=1.0,  address = [3201]},
 	{ measurement ="gop6",	name = "eimport3",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3202]},
 	{ measurement ="gop6",	name = "eimport4",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3203]},
 	{ measurement ="gop6",	name = "eimport5",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3204]},
-	{ measurement ="gop6",	name = "eimport6",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3205]},
+	{ measurement ="gop6",	name = "eimport6",  byte_order = "BA",   data_type = "INT32", scale=1.0,  address = [3205]},
 	{ measurement ="gop6",	name = "eimport7",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3206]},
 	{ measurement ="gop6",	name = "eimport8",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3207]},
 	{ measurement ="gop6",	name = "eimport9",  byte_order = "BA",   data_type = "INT16", scale=1.0,  address = [3208]}
