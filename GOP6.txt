@@ -4006,7 +4006,7 @@ transmission_mode = "RTU"
 	{ measurement ="gop6",	name = "stot",     byte_order = "BA",   data_type = "FLOAT32", scale=0.001,  address = [3075]},
 	{ measurement ="gop6",	name = "pf",       byte_order = "BA",   data_type = "FLOAT32", scale=0.00001,  address = [3083]},
 	{ measurement ="gop6",	name = "eimport",  byte_order = "BA",   data_type = "INT32", scale=1.0,  address = [3201]},
-	{ measurement ="gop6",	name = "eimport",  byte_order = "BA",   data_type = "INT32", scale=1.0,  address = [3205]}
+	{ measurement ="gop6",	name = "eexport",  byte_order = "BA",   data_type = "INT32", scale=1.0,  address = [3205]}
    ]
 #   input_registers = [
 #     { name = "tank_level",   byte_order = "AB",   data_type = "INT16",   scale=1.0,     address = [0]},
