@@ -3993,7 +3993,7 @@ transmission_mode = "RTU"
 	{ measurement ="gop6",	name = "vavg",     byte_order = "BA",   data_type = "FLOAT32", scale=0.01,  address = [3022]},
 	{ measurement ="gop6",	name = "v1n",      byte_order = "BA",   data_type = "FLOAT32", scale=0.01,  address = [3023]},
 	{ measurement ="gop6",	name = "v2n",      byte_order = "BA",   data_type = "FLOAT32", scale=0.01,  address = [3024]},
-	{ measurement ="gop6",	name = "f",        byte_order = "ABCD",   data_type = "FLOAT32-IEEE", scale=0.001,  address = [3110,3011]},
+	{ measurement ="gop6",	name = "f",        byte_order = "DCBA",   data_type = "FLOAT32", scale=0.001,  address = [3110,3011]},
 	{ measurement ="gop6",	name = "i1",       byte_order = "BA",   data_type = "FLOAT32", scale=0.001,  address = [2999]},
 	{ measurement ="gop6",	name = "i2",       byte_order = "BA",   data_type = "FLOAT32", scale=0.001,  address = [3000]},
 	{ measurement ="gop6",	name = "i3",       byte_order = "BA",   data_type = "FLOAT32", scale=0.001,  address = [3001]},
