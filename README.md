@@ -91,7 +91,7 @@ Credential =
 - SML   = SJkjXjKFcvNqZVEry6I0
 
 2. Thingsboard server
-- Hostname  = demo.thingsboard.io
+- Hostname  = 13.229.75.188
 - Port      = 1883
 
 3. Link instalasi dataplicity
