@@ -86,9 +86,9 @@ II Install thingsboard
 
 Credential =
 1. Access token Thingsboard
-- GOP 6 = i905xXAqWq2nfU6l4oEN
-- GOP 9 = GvGNnNTB7DKSblBfuiAb
-- SML   = qzEREwfONH6ZuL79ADw3
+- GOP 6 = T3JmHgjovfrsm1lvuH9a
+- GOP 9 = yLSUxTfXtm9KqwfLQwvC
+- SML   = ee9TTvOLFIBfyKtWwXn3
 
 2. Thingsboard server
 - Hostname  = demo.thingsboard.io
