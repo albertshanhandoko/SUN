@@ -35,7 +35,7 @@ II Install thingsboard
 1. crontab -e
 2. put command in the bottom line
 - @reboot telegraf
-- @reboot /usr/local/bin/python3.6 /usr/local/bin/thingsboard-gateway
+- @reboot /usr/bin/python3 /usr/local/bin/thingsboard-gateway
 
 *Cara download dan setup configuration file dari github*
 1. Create Folder in root
@@ -86,9 +86,9 @@ II Install thingsboard
 
 Credential =
 1. Access token Thingsboard
-- GOP 6 = T3JmHgjovfrsm1lvuH9a
-- GOP 9 = yLSUxTfXtm9KqwfLQwvC
-- SML   = ee9TTvOLFIBfyKtWwXn3
+- GOP 6 = qZimZ8feP9puObFBmSJP
+- GOP 9 = TDnxLawbiQTS2rfuoqME
+- SML   = SJkjXjKFcvNqZVEry6I0
 
 2. Thingsboard server
 - Hostname  = demo.thingsboard.io
