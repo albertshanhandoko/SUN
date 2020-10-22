@@ -86,13 +86,13 @@ II Install thingsboard
 
 Credential =
 1. Access token Thingsboard
-- GOP 6 = qZimZ8feP9puObFBmSJP
-- GOP 9 = TDnxLawbiQTS2rfuoqME
-- SML   = SJkjXjKFcvNqZVEry6I0
+- GOP 6 = BOEe0LbvO894wk7nrnEb
+- GOP 9 = GrUBdnxb1tqix2o4SC8w
+- SML   = yMLNpmbRy5wTPFy0vyuQ
 
 2. Thingsboard server
-- Hostname  = 13.229.75.188
-- Port      = 1883
+- Hostname  = 153.92.5.95
+- Port      = 2883
 
 3. Link instalasi dataplicity
 - GOP 6 = curl -s https://www.dataplicity.com/qkvm6l9i.py | sudo python
